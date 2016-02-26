@@ -9,8 +9,8 @@ public class CompSciReview {
 		Scanner input = new Scanner(System.in);
 		int [] array = new int[10];
 		
-		double largest = 0;
-		double smallest = 0;
+		double largest = array[0];
+		double smallest = array[0];
 		
 		for(int i = 0; i < 5; i++){
 			System.out.println("Enter number: ");
